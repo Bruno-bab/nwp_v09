@@ -37,4 +37,6 @@ protected:
 		// NOTE - the ClassWizard will add and remove member functions here.
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
+public:
+	virtual void OnUpdate(CView* cv, LPARAM lp, CObject* co);
 };
